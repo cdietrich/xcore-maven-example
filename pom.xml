@@ -9,6 +9,8 @@
     <version>0.2.0-SNAPSHOT</version>
 
     <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <emf-version>2.11.1-v20150805-0538</emf-version>
         <emf-common-version>2.11.0-v20150805-0538</emf-common-version>
