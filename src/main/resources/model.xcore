@@ -5,10 +5,16 @@
 )
 package sample.model
 
+import org.eclipse.xtext.common.types.Iterable 
+
 class User {
     String name
 
     op String sayHello(User user) {
         "Hello " + user.name
+    }
+    
+    op Iterable demo() {
+    	null
     }
 }
